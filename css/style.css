@@ -82,7 +82,6 @@ main {
 	
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 0 60px 0;
 }
 .page__section {
 	display: flex;
@@ -247,6 +246,32 @@ main {
 	line-height: 24px;
 }
 
+/* ------footer------ */
+footer {
+	height: 182px;
+	width: 100%;
+}
+.footer__body {
+	width: 232px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.footer__body p {
+	font-size: 14px;
+	margin-top: 25px;
+}
+.brands-logos {
+	display: flex;
+	justify-content: space-between;
+}
+.brands-logos div {
+	font-size: 30px;
+	cursor: pointer;
+}
 /* ------------------ */
 
 @media (max-width: 520px) {
